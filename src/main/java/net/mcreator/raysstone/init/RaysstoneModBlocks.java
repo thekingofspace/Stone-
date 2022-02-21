@@ -10,6 +10,7 @@ import net.minecraftforge.event.RegistryEvent;
 
 import net.minecraft.world.level.block.Block;
 
+import net.mcreator.raysstone.block.GroutBlock;
 import net.mcreator.raysstone.block.CopperSulfateOreBlock;
 import net.mcreator.raysstone.block.CobbledCalveriteBlock;
 import net.mcreator.raysstone.block.CalveriteBlock;
@@ -23,6 +24,7 @@ public class RaysstoneModBlocks {
 	public static final Block CALVERITE = register(new CalveriteBlock());
 	public static final Block COBBLED_CALVERITE = register(new CobbledCalveriteBlock());
 	public static final Block COPPER_SULFATE_ORE = register(new CopperSulfateOreBlock());
+	public static final Block GROUT = register(new GroutBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

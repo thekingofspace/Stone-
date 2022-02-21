@@ -16,6 +16,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
+import net.mcreator.raysstone.world.features.ores.GroutFeature;
 import net.mcreator.raysstone.world.features.ores.CopperSulfateOreFeature;
 import net.mcreator.raysstone.world.features.ores.CalveriteFeature;
 
@@ -31,6 +32,8 @@ public class RaysstoneModFeatures {
 				CalveriteFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(CopperSulfateOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
 				CopperSulfateOreFeature.GENERATE_BIOMES, CopperSulfateOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(GroutFeature.FEATURE,
+				new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, GroutFeature.GENERATE_BIOMES, GroutFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

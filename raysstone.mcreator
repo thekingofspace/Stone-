@@ -63,6 +63,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "smelt"
+    },
+    {
+      "name": "Grout",
+      "type": "block",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grout"
     }
   ],
   "variable_elements": [],
@@ -71,6 +79,7 @@
     "en_us": {
       "block.raysstone.cobbled_calverite": "Cobbled Calverite",
       "item.raysstone.copper_sulfate_chunk": "Copper sulfate chunk",
+      "block.raysstone.grout": "Grout",
       "block.raysstone.calverite": "Calverite",
       "item.raysstone.copper_infused_chunks": "Copper infused chunks",
       "block.raysstone.copper_sulfate_ore": "Copper Sulfate Ore",
