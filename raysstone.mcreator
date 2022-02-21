@@ -1,0 +1,102 @@
+{
+  "mod_elements": [
+    {
+      "name": "Calverite",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calverite"
+    },
+    {
+      "name": "CobbledCalverite",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobbled_calverite"
+    },
+    {
+      "name": "CopperSulfateChunk",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sulfate_chunk"
+    },
+    {
+      "name": "CopperSulfateOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_sulfate_ore"
+    },
+    {
+      "name": "CopperInfusedIron",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_infused_iron"
+    },
+    {
+      "name": "CopperInfusedChunks",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copper_infused_chunks"
+    },
+    {
+      "name": "Infusin",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "infusin"
+    },
+    {
+      "name": "Smelt",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smelt"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "block.raysstone.cobbled_calverite": "Cobbled Calverite",
+      "item.raysstone.copper_sulfate_chunk": "Copper sulfate chunk",
+      "block.raysstone.calverite": "Calverite",
+      "item.raysstone.copper_infused_chunks": "Copper infused chunks",
+      "block.raysstone.copper_sulfate_ore": "Copper Sulfate Ore",
+      "item.raysstone.copper_infused_iron": "Copper infused iron"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "raysstone",
+    "modName": "RaysStone+",
+    "version": "1.0.0",
+    "author": "gageh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.raysstone",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

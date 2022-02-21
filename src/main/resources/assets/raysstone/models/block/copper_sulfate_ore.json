@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "raysstone:blocks/copper_sulfate",
+    "up": "raysstone:blocks/copper_sulfate",
+    "north": "raysstone:blocks/copper_sulfate",
+    "east": "raysstone:blocks/copper_sulfate",
+    "south": "raysstone:blocks/copper_sulfate",
+    "west": "raysstone:blocks/copper_sulfate",
+    "particle": "raysstone:blocks/copper_sulfate"
+  }
+}

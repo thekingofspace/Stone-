@@ -1,0 +1,20 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Blasting",
+    "xpReward": 2.0,
+    "cookingTime": 2400,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "blastingInputStack": {
+      "value": "CUSTOM:CopperInfusedChunks"
+    },
+    "blastingReturnStack": {
+      "value": "CUSTOM:CopperInfusedIron"
+    },
+    "name": "smelt",
+    "namespace": "mod"
+  }
+}

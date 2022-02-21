@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 2,
+  "cookingtime": 2400,
+  "ingredient": {
+    "item": "raysstone:copper_infused_chunks"
+  },
+  "result": {
+    "item": "raysstone:copper_infused_iron"
+  }
+}
