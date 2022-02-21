@@ -3,10 +3,10 @@
   "textures": {
     "down": "raysstone:blocks/calverite",
     "up": "raysstone:blocks/calverite",
-    "north": "raysstone:blocks/calverite",
-    "east": "raysstone:blocks/calverite",
-    "south": "raysstone:blocks/calverite",
-    "west": "raysstone:blocks/calverite",
+    "north": "raysstone:blocks/calverite_side",
+    "east": "raysstone:blocks/calverite_side",
+    "south": "raysstone:blocks/calverite_side",
+    "west": "raysstone:blocks/calverite_side",
     "particle": "raysstone:blocks/calverite"
   }
 }
