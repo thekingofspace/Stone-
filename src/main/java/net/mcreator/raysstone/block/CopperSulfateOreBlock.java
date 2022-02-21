@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class CopperSulfateOreBlock extends Block {
 	public CopperSulfateOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2.15f, 10f).requiresCorrectToolForDrops());
 		setRegistryName("copper_sulfate_ore");
 	}
 

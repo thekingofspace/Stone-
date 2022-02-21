@@ -34,7 +34,7 @@
     ],
     "name": "Copper Sulfate Ore",
     "specialInfo": [],
-    "hardness": 1.0,
+    "hardness": 2.15,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
