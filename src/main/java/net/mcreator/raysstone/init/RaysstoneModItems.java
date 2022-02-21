@@ -16,6 +16,7 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.raysstone.item.CopperSulfateChunkItem;
 import net.mcreator.raysstone.item.CopperInfusedIronItem;
 import net.mcreator.raysstone.item.CopperInfusedChunksItem;
+import net.mcreator.raysstone.item.CastItem;
 
 import java.util.List;
 import java.util.ArrayList;
@@ -30,6 +31,7 @@ public class RaysstoneModItems {
 	public static final Item COPPER_INFUSED_IRON = register(new CopperInfusedIronItem());
 	public static final Item COPPER_INFUSED_CHUNKS = register(new CopperInfusedChunksItem());
 	public static final Item GROUT = register(RaysstoneModBlocks.GROUT, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item CAST = register(new CastItem());
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

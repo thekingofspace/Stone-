@@ -79,6 +79,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "craft_grout"
+    },
+    {
+      "name": "Cast",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cast"
     }
   ],
   "variable_elements": [],
@@ -90,6 +98,7 @@
       "block.raysstone.grout": "Grout",
       "block.raysstone.calverite": "Calverite",
       "item.raysstone.copper_infused_chunks": "Copper infused chunks",
+      "item.raysstone.cast": "Cast mold",
       "block.raysstone.copper_sulfate_ore": "Copper Sulfate Ore",
       "item.raysstone.copper_infused_iron": "Copper infused iron"
     }
