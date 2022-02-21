@@ -27,7 +27,7 @@ public class RaysstoneModItems {
 	public static final Item CALVERITE = register(RaysstoneModBlocks.CALVERITE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item COBBLED_CALVERITE = register(RaysstoneModBlocks.COBBLED_CALVERITE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final Item COPPER_SULFATE_CHUNK = register(new CopperSulfateChunkItem());
-	public static final Item COPPER_SULFATE_ORE = register(RaysstoneModBlocks.COPPER_SULFATE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
+	public static final Item COPPER_SULFATE_ORE = register(RaysstoneModBlocks.COPPER_SULFATE_ORE, RaysstoneModTabs.TAB_ORES);
 	public static final Item COPPER_INFUSED_IRON = register(new CopperInfusedIronItem());
 	public static final Item COPPER_INFUSED_CHUNKS = register(new CopperInfusedChunksItem());
 	public static final Item GROUT = register(RaysstoneModBlocks.GROUT, CreativeModeTab.TAB_BUILDING_BLOCKS);
