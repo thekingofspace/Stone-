@@ -147,6 +147,23 @@
       "locked_code": false,
       "registry_name": "chunkunlock",
       "path": "~/Mixing"
+    },
+    {
+      "name": "Smeltcalveirte",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "smeltcalveirte"
+    },
+    {
+      "name": "Unlockcobble",
+      "type": "achievement",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlockcobble",
+      "path": "~/Mixing"
     }
   ],
   "variable_elements": [],
@@ -159,12 +176,14 @@
       "advancements.groutunlock.descr": "e",
       "block.raysstone.carnegie_ore": "Carnegie Ore",
       "item.raysstone.cast": "Cast mold",
+      "advancements.unlockcobble.descr": "e",
       "block.raysstone.copper_sulfate_ore": "Copper Sulfate Ore",
       "item.raysstone.copper_infused_iron": "Copper infused iron",
       "itemGroup.tabores": "Ores",
       "advancements.groutunlock.title": "Groutunlock",
       "advancements.groutunlock_2.descr": "e",
       "advancements.groutunlock_3.title": "Groutunlock",
+      "advancements.unlockcobble.title": "Chunkunlock",
       "advancements.groutunlock_3.descr": "e",
       "block.raysstone.calverite": "Calverite",
       "advancements.groutunlock_2.title": "Groutunlock",

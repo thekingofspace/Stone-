@@ -133,8 +133,8 @@
         "value": "Blocks.SAND#0"
       }
     ],
-    "frequencyPerChunks": 25,
-    "frequencyOnChunk": 22,
+    "frequencyPerChunks": 33,
+    "frequencyOnChunk": 30,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 256
   }
