@@ -8,7 +8,7 @@
     "name": "Copper sulfate chunk",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Minerals"
     },
     "stackSize": 64,
     "enchantability": 0,

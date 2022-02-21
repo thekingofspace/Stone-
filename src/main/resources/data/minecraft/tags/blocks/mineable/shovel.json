@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "raysstone:grout"
+    "raysstone:grout",
+    "raysstone:carnegie_ore"
   ]
 }

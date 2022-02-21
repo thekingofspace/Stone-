@@ -2,12 +2,12 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "grout",
-    "textureTop": "grout",
-    "textureLeft": "grout",
-    "textureFront": "grout",
-    "textureRight": "grout",
-    "textureBack": "grout",
+    "texture": "carnegie",
+    "textureTop": "carnegie",
+    "textureLeft": "carnegie",
+    "textureFront": "carnegie",
+    "textureRight": "carnegie",
+    "textureBack": "carnegie",
     "renderType": 10,
     "customModelName": "Normal",
     "rotationMode": 0,
@@ -32,14 +32,14 @@
         "subtract": false
       }
     ],
-    "name": "Grout",
+    "name": "Carnegie Ore",
     "specialInfo": [],
-    "hardness": 0.7999999999999999,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Minerals"
+      "value": "CUSTOM:Ores"
     },
     "destroyTool": "shovel",
     "customDrop": {
@@ -96,7 +96,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "breakHarvestLevel": 2,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -121,21 +121,16 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
-        "value": "Blocks.GRAVEL"
-      },
-      {
-        "value": "Blocks.SAND#0"
+        "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 25,
-    "frequencyOnChunk": 22,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 256
+    "maxGenerateHeight": 64
   }
 }

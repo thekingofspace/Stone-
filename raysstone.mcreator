@@ -95,6 +95,22 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "ores"
+    },
+    {
+      "name": "CarnegieOre",
+      "type": "block",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "carnegie_ore"
+    },
+    {
+      "name": "Minerals",
+      "type": "tab",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "minerals"
     }
   ],
   "variable_elements": [],
@@ -106,7 +122,9 @@
       "block.raysstone.grout": "Grout",
       "block.raysstone.calverite": "Calverite",
       "item.raysstone.copper_infused_chunks": "Copper infused chunks",
+      "block.raysstone.carnegie_ore": "Carnegie Ore",
       "item.raysstone.cast": "Cast mold",
+      "itemGroup.tabminerals": "Minerals",
       "block.raysstone.copper_sulfate_ore": "Copper Sulfate Ore",
       "item.raysstone.copper_infused_iron": "Copper infused iron",
       "itemGroup.tabores": "Ores"

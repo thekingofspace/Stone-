@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "raysstone:blocks/carnegie",
+    "up": "raysstone:blocks/carnegie",
+    "north": "raysstone:blocks/carnegie",
+    "east": "raysstone:blocks/carnegie",
+    "south": "raysstone:blocks/carnegie",
+    "west": "raysstone:blocks/carnegie",
+    "particle": "raysstone:blocks/carnegie"
+  }
+}

@@ -26,8 +26,8 @@ import java.util.Random;
 public class GroutFeature extends OreFeature {
 	public static final GroutFeature FEATURE = (GroutFeature) new GroutFeature().setRegistryName("raysstone:grout");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(GroutFeatureRuleTest.INSTANCE, RaysstoneModBlocks.GROUT.defaultBlockState(), 17))
-			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)))).squared().count(20);
+			.configured(new OreConfiguration(GroutFeatureRuleTest.INSTANCE, RaysstoneModBlocks.GROUT.defaultBlockState(), 22))
+			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)))).squared().count(25);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
 	public GroutFeature() {
