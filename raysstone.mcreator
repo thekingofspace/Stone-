@@ -71,6 +71,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "grout"
+    },
+    {
+      "name": "CraftGrout",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craft_grout"
     }
   ],
   "variable_elements": [],
