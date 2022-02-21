@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "chunkunlock": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "raysstone:copper_sulfate_chunk"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "raysstone:infusin",
+      "raysstone:smelt"
+    ]
+  }
+}
