@@ -8,7 +8,7 @@
     "name": "Copper infused iron",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Minerals"
     },
     "stackSize": 64,
     "enchantability": 0,
