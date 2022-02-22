@@ -221,6 +221,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "dsfasdf"
+    },
+    {
+      "name": "Test",
+      "type": "gui",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test"
     }
   ],
   "variable_elements": [],

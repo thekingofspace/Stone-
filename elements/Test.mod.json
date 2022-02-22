@@ -1,0 +1,91 @@
+{
+  "_fv": 24,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 182,
+          "y": 56
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 182,
+          "y": 88
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 230,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pole.png",
+          "use1Xscale": false,
+          "name": "pole.png",
+          "x": 182,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pole2.png",
+          "use1Xscale": false,
+          "name": "pole2.png",
+          "x": 198,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "pole2.png",
+          "use1Xscale": false,
+          "name": "pole2.png",
+          "x": 214,
+          "y": 72
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 16,
+      "sy": 16,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}
