@@ -16,9 +16,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.data.BuiltinRegistries;
 import net.minecraft.core.Registry;
 
+import net.mcreator.raysstone.world.features.ores.ScheeliteOreFeature;
+import net.mcreator.raysstone.world.features.ores.RochelleSaltsOreFeature;
 import net.mcreator.raysstone.world.features.ores.GroutFeature;
 import net.mcreator.raysstone.world.features.ores.CopperSulfateOreFeature;
-import net.mcreator.raysstone.world.features.ores.CarnegieOreFeature;
 import net.mcreator.raysstone.world.features.ores.CalveriteFeature;
 
 import java.util.Set;
@@ -35,8 +36,10 @@ public class RaysstoneModFeatures {
 				CopperSulfateOreFeature.GENERATE_BIOMES, CopperSulfateOreFeature.CONFIGURED_FEATURE));
 		REGISTRY.put(GroutFeature.FEATURE,
 				new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES, GroutFeature.GENERATE_BIOMES, GroutFeature.CONFIGURED_FEATURE));
-		REGISTRY.put(CarnegieOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
-				CarnegieOreFeature.GENERATE_BIOMES, CarnegieOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(RochelleSaltsOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				RochelleSaltsOreFeature.GENERATE_BIOMES, RochelleSaltsOreFeature.CONFIGURED_FEATURE));
+		REGISTRY.put(ScheeliteOreFeature.FEATURE, new FeatureRegistration(GenerationStep.Decoration.UNDERGROUND_ORES,
+				ScheeliteOreFeature.GENERATE_BIOMES, ScheeliteOreFeature.CONFIGURED_FEATURE));
 	}
 
 	@SubscribeEvent

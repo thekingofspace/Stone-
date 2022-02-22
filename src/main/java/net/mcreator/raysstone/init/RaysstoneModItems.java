@@ -13,6 +13,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.BlockItem;
 
+import net.mcreator.raysstone.item.PolishedCopperSulfateItem;
+import net.mcreator.raysstone.item.CrushedRochelleSaltsItem;
 import net.mcreator.raysstone.item.CopperSulfateChunkItem;
 import net.mcreator.raysstone.item.CopperInfusedIronItem;
 import net.mcreator.raysstone.item.CopperInfusedChunksItem;
@@ -30,7 +32,10 @@ public class RaysstoneModItems {
 	public static final Item COPPER_INFUSED_IRON = register(new CopperInfusedIronItem());
 	public static final Item COPPER_INFUSED_CHUNKS = register(new CopperInfusedChunksItem());
 	public static final Item GROUT = register(RaysstoneModBlocks.GROUT, RaysstoneModTabs.TAB_MINERALS);
-	public static final Item CARNEGIE_ORE = register(RaysstoneModBlocks.CARNEGIE_ORE, RaysstoneModTabs.TAB_ORES);
+	public static final Item POLISHED_COPPER_SULFATE = register(new PolishedCopperSulfateItem());
+	public static final Item CRUSHED_ROCHELLE_SALTS = register(new CrushedRochelleSaltsItem());
+	public static final Item ROCHELLE_SALTS_ORE = register(RaysstoneModBlocks.ROCHELLE_SALTS_ORE, RaysstoneModTabs.TAB_ORES);
+	public static final Item SCHEELITE_ORE = register(RaysstoneModBlocks.SCHEELITE_ORE, RaysstoneModTabs.TAB_ORES);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

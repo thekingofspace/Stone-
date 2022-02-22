@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "raysstone:polished_copper_sulfate"
+  },
+  "result": "raysstone:crushed_rochelle_salts"
+}

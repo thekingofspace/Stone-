@@ -89,14 +89,6 @@
       "registry_name": "ores"
     },
     {
-      "name": "CarnegieOre",
-      "type": "block",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "carnegie_ore"
-    },
-    {
       "name": "Minerals",
       "type": "tab",
       "sortid": 14,
@@ -164,33 +156,95 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "sulfur_spring"
+    },
+    {
+      "name": "PolishedCopperSulfate",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polished_copper_sulfate"
+    },
+    {
+      "name": "CrushedRochelleSalts",
+      "type": "item",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crushed_rochelle_salts"
+    },
+    {
+      "name": "Craftsalts",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftsalts"
+    },
+    {
+      "name": "Unlocksalt",
+      "type": "achievement",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unlocksalt",
+      "path": "~/Mixing"
+    },
+    {
+      "name": "Craftsalts2",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "craftsalts_2"
+    },
+    {
+      "name": "RochelleSaltsOre",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rochelle_salts_ore"
+    },
+    {
+      "name": "ScheeliteOre",
+      "type": "block",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scheelite_ore"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.raysstone.cobbled_calverite": "Cobbled Calverite",
+      "block.raysstone.rochelle_salts_ore": "Rochelle salts ore",
       "item.raysstone.copper_sulfate_chunk": "Copper sulfate chunk",
       "block.raysstone.grout": "Grout",
-      "advancements.groutunlock.descr": "e",
-      "block.raysstone.carnegie_ore": "Carnegie Ore",
+      "advancements.unlocksalt.descr": "e",
       "advancements.unlockcobble.descr": "e",
       "block.raysstone.copper_sulfate_ore": "Copper Sulfate Ore",
+      "item.raysstone.crushed_rochelle_salts": "Crushed rochelle salts",
       "item.raysstone.copper_infused_iron": "Copper infused iron",
+      "block.raysstone.calverite": "Calverite",
+      "advancements.chunkunlock.title": "Chunkunlock",
+      "advancements.chunkunlock.descr": "e",
+      "item.raysstone.polished_copper_sulfate": "Rochelle salt",
+      "block.raysstone.cobbled_calverite": "Cobbled Calverite",
+      "advancements.groutunlock.descr": "e",
+      "block.raysstone.scheelite_ore": "Scheelite Ore",
       "itemGroup.tabores": "Ores",
       "advancements.groutunlock.title": "Groutunlock",
+      "advancements.unlocksalt.title": "Chunkunlock",
       "advancements.groutunlock_2.descr": "e",
       "advancements.groutunlock_3.title": "Groutunlock",
       "advancements.unlockcobble.title": "Chunkunlock",
       "advancements.groutunlock_3.descr": "e",
       "advancements.sulfur_spring.descr": "You got some copper sulfate nice",
-      "block.raysstone.calverite": "Calverite",
       "advancements.groutunlock_2.title": "Groutunlock",
       "item.raysstone.copper_infused_chunks": "Copper infused chunks",
-      "advancements.chunkunlock.title": "Chunkunlock",
       "itemGroup.tabminerals": "Minerals",
-      "advancements.chunkunlock.descr": "e",
       "advancements.sulfur_spring.title": "Sulfur Spring"
     }
   },
