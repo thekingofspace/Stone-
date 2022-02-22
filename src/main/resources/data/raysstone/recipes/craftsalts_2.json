@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "K",
+    "P"
+  ],
+  "key": {
+    "K": {
+      "item": "minecraft:kelp"
+    },
+    "P": {
+      "item": "minecraft:potion"
+    }
+  },
+  "result": {
+    "item": "raysstone:crushed_rochelle_salts",
+    "count": 2
+  }
+}

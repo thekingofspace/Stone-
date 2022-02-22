@@ -11,6 +11,7 @@ import net.minecraft.world.level.levelgen.feature.FeaturePlaceContext;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.VerticalAnchor;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.WorldGenLevel;
 import net.minecraft.world.level.Level;
 import net.minecraft.resources.ResourceLocation;
@@ -22,14 +23,15 @@ import net.mcreator.raysstone.init.RaysstoneModBlocks;
 import java.util.Set;
 import java.util.Random;
 
-public class CarnegieOreFeature extends OreFeature {
-	public static final CarnegieOreFeature FEATURE = (CarnegieOreFeature) new CarnegieOreFeature().setRegistryName("raysstone:carnegie_ore");
+public class RochelleSaltsOreFeature extends OreFeature {
+	public static final RochelleSaltsOreFeature FEATURE = (RochelleSaltsOreFeature) new RochelleSaltsOreFeature()
+			.setRegistryName("raysstone:rochelle_salts_ore");
 	public static final ConfiguredFeature<?, ?> CONFIGURED_FEATURE = FEATURE
-			.configured(new OreConfiguration(CarnegieOreFeatureRuleTest.INSTANCE, RaysstoneModBlocks.CARNEGIE_ORE.defaultBlockState(), 9))
+			.configured(new OreConfiguration(RochelleSaltsOreFeatureRuleTest.INSTANCE, RaysstoneModBlocks.ROCHELLE_SALTS_ORE.defaultBlockState(), 9))
 			.range(new RangeDecoratorConfiguration(UniformHeight.of(VerticalAnchor.absolute(0), VerticalAnchor.absolute(256)))).squared().count(20);
 	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 
-	public CarnegieOreFeature() {
+	public RochelleSaltsOreFeature() {
 		super(OreConfiguration.CODEC);
 	}
 
@@ -44,15 +46,15 @@ public class CarnegieOreFeature extends OreFeature {
 		return super.place(context);
 	}
 
-	private static class CarnegieOreFeatureRuleTest extends RuleTest {
-		static final CarnegieOreFeatureRuleTest INSTANCE = new CarnegieOreFeatureRuleTest();
-		static final com.mojang.serialization.Codec<CarnegieOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		static final RuleTestType<CarnegieOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
-				new ResourceLocation("raysstone:carnegie_ore_match"), () -> codec);
+	private static class RochelleSaltsOreFeatureRuleTest extends RuleTest {
+		static final RochelleSaltsOreFeatureRuleTest INSTANCE = new RochelleSaltsOreFeatureRuleTest();
+		static final com.mojang.serialization.Codec<RochelleSaltsOreFeatureRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
+		static final RuleTestType<RochelleSaltsOreFeatureRuleTest> CUSTOM_MATCH = Registry.register(Registry.RULE_TEST,
+				new ResourceLocation("raysstone:rochelle_salts_ore_match"), () -> codec);
 
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == RaysstoneModBlocks.GROUT)
+			if (blockAt.getBlock() == Blocks.GRAVEL)
 				blockCriteria = true;
 			return blockCriteria;
 		}

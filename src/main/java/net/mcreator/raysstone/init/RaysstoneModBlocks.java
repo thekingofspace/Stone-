@@ -13,7 +13,6 @@ import net.minecraft.world.level.block.Block;
 import net.mcreator.raysstone.block.GroutBlock;
 import net.mcreator.raysstone.block.CopperSulfateOreBlock;
 import net.mcreator.raysstone.block.CobbledCalveriteBlock;
-import net.mcreator.raysstone.block.CarnegieOreBlock;
 import net.mcreator.raysstone.block.CalveriteBlock;
 
 import java.util.List;
@@ -26,7 +25,6 @@ public class RaysstoneModBlocks {
 	public static final Block COBBLED_CALVERITE = register(new CobbledCalveriteBlock());
 	public static final Block COPPER_SULFATE_ORE = register(new CopperSulfateOreBlock());
 	public static final Block GROUT = register(new GroutBlock());
-	public static final Block CARNEGIE_ORE = register(new CarnegieOreBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);

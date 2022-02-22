@@ -30,7 +30,6 @@ public class RaysstoneModItems {
 	public static final Item COPPER_INFUSED_IRON = register(new CopperInfusedIronItem());
 	public static final Item COPPER_INFUSED_CHUNKS = register(new CopperInfusedChunksItem());
 	public static final Item GROUT = register(RaysstoneModBlocks.GROUT, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item CARNEGIE_ORE = register(RaysstoneModBlocks.CARNEGIE_ORE, RaysstoneModTabs.TAB_ORES);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "raysstone:blocks/scheelite",
+    "up": "raysstone:blocks/scheelite",
+    "north": "raysstone:blocks/scheelite",
+    "east": "raysstone:blocks/scheelite",
+    "south": "raysstone:blocks/scheelite",
+    "west": "raysstone:blocks/scheelite",
+    "particle": "raysstone:blocks/scheelite"
+  }
+}

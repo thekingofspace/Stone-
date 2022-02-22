@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "raysstone:blocks/rochellesaltsore",
+    "up": "raysstone:blocks/rochellesaltsore",
+    "north": "raysstone:blocks/rochellesaltsore",
+    "east": "raysstone:blocks/rochellesaltsore",
+    "south": "raysstone:blocks/rochellesaltsore",
+    "west": "raysstone:blocks/rochellesaltsore",
+    "particle": "raysstone:blocks/rochellesaltsore"
+  }
+}
