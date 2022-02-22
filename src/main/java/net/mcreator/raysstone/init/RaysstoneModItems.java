@@ -36,6 +36,7 @@ public class RaysstoneModItems {
 	public static final Item CRUSHED_ROCHELLE_SALTS = register(new CrushedRochelleSaltsItem());
 	public static final Item ROCHELLE_SALTS_ORE = register(RaysstoneModBlocks.ROCHELLE_SALTS_ORE, RaysstoneModTabs.TAB_ORES);
 	public static final Item SCHEELITE_ORE = register(RaysstoneModBlocks.SCHEELITE_ORE, RaysstoneModTabs.TAB_ORES);
+	public static final Item DSFASDF = register(RaysstoneModBlocks.DSFASDF, RaysstoneModTabs.TAB_ORES);
 
 	private static Item register(Item item) {
 		REGISTRY.add(item);
