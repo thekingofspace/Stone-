@@ -4,15 +4,18 @@
  */
 package net.mcreator.raysstone.init;
 
+import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
 
 import net.mcreator.raysstone.block.ScheeliteOreBlock;
 import net.mcreator.raysstone.block.RochelleSaltsOreBlock;
 import net.mcreator.raysstone.block.GroutBlock;
+import net.mcreator.raysstone.block.DsfasdfBlock;
 import net.mcreator.raysstone.block.CopperSulfateOreBlock;
 import net.mcreator.raysstone.block.CobbledCalveriteBlock;
 import net.mcreator.raysstone.block.CalveriteBlock;
@@ -29,6 +32,7 @@ public class RaysstoneModBlocks {
 	public static final Block GROUT = register(new GroutBlock());
 	public static final Block ROCHELLE_SALTS_ORE = register(new RochelleSaltsOreBlock());
 	public static final Block SCHEELITE_ORE = register(new ScheeliteOreBlock());
+	public static final Block DSFASDF = register(new DsfasdfBlock());
 
 	private static Block register(Block block) {
 		REGISTRY.add(block);
@@ -38,5 +42,13 @@ public class RaysstoneModBlocks {
 	@SubscribeEvent
 	public static void registerBlocks(RegistryEvent.Register<Block> event) {
 		event.getRegistry().registerAll(REGISTRY.toArray(new Block[0]));
+	}
+
+	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+	public static class ClientSideHandler {
+		@SubscribeEvent
+		public static void clientSetup(FMLClientSetupEvent event) {
+			DsfasdfBlock.registerRenderLayer();
+		}
 	}
 }
