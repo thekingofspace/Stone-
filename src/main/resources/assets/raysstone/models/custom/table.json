@@ -958,6 +958,90 @@
       }
     }
   ],
+  "display": {
+    "thirdperson_righthand": {
+      "rotation": [
+        66,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        1.25,
+        0.5
+      ],
+      "scale": [
+        0.24414,
+        0.26563,
+        0.24023
+      ]
+    },
+    "thirdperson_lefthand": {
+      "rotation": [
+        66,
+        0,
+        0
+      ],
+      "translation": [
+        0,
+        0.75,
+        0.75
+      ],
+      "scale": [
+        0.24805,
+        0.31836,
+        0.28125
+      ]
+    },
+    "firstperson_righthand": {
+      "translation": [
+        -1.25,
+        0,
+        0
+      ],
+      "scale": [
+        0.59375,
+        0.80273,
+        0.40039
+      ]
+    },
+    "firstperson_lefthand": {
+      "translation": [
+        -1.5,
+        0,
+        1
+      ],
+      "scale": [
+        0.88867,
+        1,
+        0.64063
+      ]
+    },
+    "ground": {
+      "scale": [
+        0.5918,
+        0.60352,
+        0.625
+      ]
+    },
+    "gui": {
+      "rotation": [
+        30.34,
+        -25.17,
+        4.2
+      ],
+      "translation": [
+        -0.25,
+        0.25,
+        0
+      ],
+      "scale": [
+        0.58008,
+        0.66016,
+        0.70898
+      ]
+    }
+  },
   "groups": [
     {
       "name": "bars",
@@ -967,8 +1051,6 @@
         0
       ],
       "color": 0,
-      "nbt": "{}",
-      "armAnimationEnabled": false,
       "children": [
         0,
         1,
@@ -984,8 +1066,6 @@
         0
       ],
       "color": 0,
-      "nbt": "{}",
-      "armAnimationEnabled": false,
       "children": [
         4,
         5,
@@ -1001,8 +1081,6 @@
         0
       ],
       "color": 0,
-      "nbt": "{}",
-      "armAnimationEnabled": false,
       "children": [
         8,
         9,
@@ -1019,8 +1097,6 @@
         0
       ],
       "color": 0,
-      "nbt": "{}",
-      "armAnimationEnabled": false,
       "children": [
         13
       ]

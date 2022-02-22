@@ -14,7 +14,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "ccalverite",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
