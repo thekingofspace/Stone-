@@ -48,36 +48,6 @@
           "x": 230,
           "y": 72
         }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "pole.png",
-          "use1Xscale": false,
-          "name": "pole.png",
-          "x": 182,
-          "y": 72
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "pole2.png",
-          "use1Xscale": false,
-          "name": "pole2.png",
-          "x": 198,
-          "y": 72
-        }
-      },
-      {
-        "type": "image",
-        "data": {
-          "image": "pole2.png",
-          "use1Xscale": false,
-          "name": "pole2.png",
-          "x": 214,
-          "y": 72
-        }
       }
     ],
     "gridSettings": {
