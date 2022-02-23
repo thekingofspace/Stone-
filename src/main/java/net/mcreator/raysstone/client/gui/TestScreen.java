@@ -46,16 +46,6 @@ public class TestScreen extends AbstractContainerScreen<TestMenu> {
 		RenderSystem.defaultBlendFunc();
 		RenderSystem.setShaderTexture(0, texture);
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("raysstone:textures/pole.png"));
-		this.blit(ms, this.leftPos + 56, this.topPos + 35, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("raysstone:textures/pole2.png"));
-		this.blit(ms, this.leftPos + 72, this.topPos + 35, 0, 0, 16, 16, 16, 16);
-
-		RenderSystem.setShaderTexture(0, new ResourceLocation("raysstone:textures/pole2.png"));
-		this.blit(ms, this.leftPos + 88, this.topPos + 35, 0, 0, 16, 16, 16, 16);
-
 		RenderSystem.disableBlend();
 	}
 
