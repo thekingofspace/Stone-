@@ -19,7 +19,6 @@ import java.util.Collections;
 public class CobbledCalveriteBlock extends Block {
 	public CobbledCalveriteBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("cobbled_calverite");
 	}
 
 	@Override
@@ -29,7 +28,7 @@ public class CobbledCalveriteBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}

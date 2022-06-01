@@ -21,7 +21,6 @@ import java.util.Collections;
 public class RochelleSaltsOreBlock extends FallingBlock {
 	public RochelleSaltsOreBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL).strength(0.7f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("rochelle_salts_ore");
 	}
 
 	@Override
@@ -31,7 +30,7 @@ public class RochelleSaltsOreBlock extends FallingBlock {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 1;
 		return false;
 	}
@@ -41,6 +40,6 @@ public class RochelleSaltsOreBlock extends FallingBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(RaysstoneModItems.POLISHED_COPPER_SULFATE, (int) (4)));
+		return Collections.singletonList(new ItemStack(RaysstoneModItems.POLISHED_COPPER_SULFATE.get(), 4));
 	}
 }

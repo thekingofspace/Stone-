@@ -1,5 +1,5 @@
 {
-  "_fv": 24,
+  "_fv": 28,
   "_type": "block",
   "definition": {
     "texture": "calverite",
@@ -82,16 +82,16 @@
     "breakSound": {
       "value": ""
     },
-    "stepSound": {
-      "value": ""
-    },
-    "placeSound": {
+    "fallSound": {
       "value": ""
     },
     "hitSound": {
       "value": ""
     },
-    "fallSound": {
+    "placeSound": {
+      "value": ""
+    },
+    "stepSound": {
       "value": ""
     },
     "luminance": 0,
@@ -154,6 +154,7 @@
         "value": "Blocks.DEEPSLATE_COPPER_ORE"
       }
     ],
+    "generationShape": "UNIFORM",
     "frequencyPerChunks": 25,
     "frequencyOnChunk": 27,
     "minGenerateHeight": 0,

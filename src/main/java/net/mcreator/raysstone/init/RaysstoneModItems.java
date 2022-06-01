@@ -4,9 +4,9 @@
  */
 package net.mcreator.raysstone.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
@@ -18,37 +18,26 @@ import net.mcreator.raysstone.item.CrushedRochelleSaltsItem;
 import net.mcreator.raysstone.item.CopperSulfateChunkItem;
 import net.mcreator.raysstone.item.CopperInfusedIronItem;
 import net.mcreator.raysstone.item.CopperInfusedChunksItem;
+import net.mcreator.raysstone.RaysstoneMod;
 
-import java.util.List;
-import java.util.ArrayList;
-
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class RaysstoneModItems {
-	private static final List<Item> REGISTRY = new ArrayList<>();
-	public static final Item CALVERITE = register(RaysstoneModBlocks.CALVERITE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item COBBLED_CALVERITE = register(RaysstoneModBlocks.COBBLED_CALVERITE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item COPPER_SULFATE_CHUNK = register(new CopperSulfateChunkItem());
-	public static final Item COPPER_SULFATE_ORE = register(RaysstoneModBlocks.COPPER_SULFATE_ORE, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item COPPER_INFUSED_IRON = register(new CopperInfusedIronItem());
-	public static final Item COPPER_INFUSED_CHUNKS = register(new CopperInfusedChunksItem());
-	public static final Item GROUT = register(RaysstoneModBlocks.GROUT, CreativeModeTab.TAB_BUILDING_BLOCKS);
-	public static final Item POLISHED_COPPER_SULFATE = register(new PolishedCopperSulfateItem());
-	public static final Item CRUSHED_ROCHELLE_SALTS = register(new CrushedRochelleSaltsItem());
-	public static final Item ROCHELLE_SALTS_ORE = register(RaysstoneModBlocks.ROCHELLE_SALTS_ORE, RaysstoneModTabs.TAB_ORES);
-	public static final Item SCHEELITE_ORE = register(RaysstoneModBlocks.SCHEELITE_ORE, RaysstoneModTabs.TAB_ORES);
-	public static final Item DSFASDF = register(RaysstoneModBlocks.DSFASDF, RaysstoneModTabs.TAB_ORES);
+	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, RaysstoneMod.MODID);
+	public static final RegistryObject<Item> CALVERITE = block(RaysstoneModBlocks.CALVERITE, RaysstoneModTabs.TAB_MINERALS);
+	public static final RegistryObject<Item> COBBLED_CALVERITE = block(RaysstoneModBlocks.COBBLED_CALVERITE, RaysstoneModTabs.TAB_MINERALS);
+	public static final RegistryObject<Item> COPPER_SULFATE_CHUNK = REGISTRY.register("copper_sulfate_chunk", () -> new CopperSulfateChunkItem());
+	public static final RegistryObject<Item> COPPER_SULFATE_ORE = block(RaysstoneModBlocks.COPPER_SULFATE_ORE, RaysstoneModTabs.TAB_ORES);
+	public static final RegistryObject<Item> COPPER_INFUSED_IRON = REGISTRY.register("copper_infused_iron", () -> new CopperInfusedIronItem());
+	public static final RegistryObject<Item> COPPER_INFUSED_CHUNKS = REGISTRY.register("copper_infused_chunks", () -> new CopperInfusedChunksItem());
+	public static final RegistryObject<Item> GROUT = block(RaysstoneModBlocks.GROUT, RaysstoneModTabs.TAB_MINERALS);
+	public static final RegistryObject<Item> POLISHED_COPPER_SULFATE = REGISTRY.register("polished_copper_sulfate",
+			() -> new PolishedCopperSulfateItem());
+	public static final RegistryObject<Item> CRUSHED_ROCHELLE_SALTS = REGISTRY.register("crushed_rochelle_salts",
+			() -> new CrushedRochelleSaltsItem());
+	public static final RegistryObject<Item> ROCHELLE_SALTS_ORE = block(RaysstoneModBlocks.ROCHELLE_SALTS_ORE, RaysstoneModTabs.TAB_ORES);
+	public static final RegistryObject<Item> SCHEELITE_ORE = block(RaysstoneModBlocks.SCHEELITE_ORE, RaysstoneModTabs.TAB_ORES);
+	public static final RegistryObject<Item> DSFASDF = block(RaysstoneModBlocks.DSFASDF, RaysstoneModTabs.TAB_ORES);
 
-	private static Item register(Item item) {
-		REGISTRY.add(item);
-		return item;
-	}
-
-	private static Item register(Block block, CreativeModeTab tab) {
-		return register(new BlockItem(block, new Item.Properties().tab(tab)).setRegistryName(block.getRegistryName()));
-	}
-
-	@SubscribeEvent
-	public static void registerItems(RegistryEvent.Register<Item> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new Item[0]));
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
 	}
 }

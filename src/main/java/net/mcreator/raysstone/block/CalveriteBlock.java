@@ -21,7 +21,6 @@ import java.util.Collections;
 public class CalveriteBlock extends Block {
 	public CalveriteBlock() {
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2.0999999999999996f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("calverite");
 	}
 
 	@Override
@@ -31,7 +30,7 @@ public class CalveriteBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 2;
 		return false;
 	}
@@ -41,6 +40,6 @@ public class CalveriteBlock extends Block {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(RaysstoneModBlocks.COBBLED_CALVERITE));
+		return Collections.singletonList(new ItemStack(RaysstoneModBlocks.COBBLED_CALVERITE.get()));
 	}
 }

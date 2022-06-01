@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "raysstone:copper_infused_chunks"
   },
-  "result": {
-    "item": "raysstone:copper_infused_iron"
-  }
+  "result": "raysstone:copper_infused_iron"
 }

@@ -1,15 +1,21 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "GS",
-    "SG"
+    "01",
+    "23"
   ],
   "key": {
-    "G": {
+    "0": {
       "item": "minecraft:gravel"
     },
-    "S": {
+    "1": {
       "tag": "minecraft:sand"
+    },
+    "2": {
+      "tag": "minecraft:sand"
+    },
+    "3": {
+      "item": "minecraft:gravel"
     }
   },
   "result": {

@@ -5,7 +5,5 @@
   "ingredient": {
     "item": "raysstone:cobbled_calverite"
   },
-  "result": {
-    "item": "raysstone:calverite"
-  }
+  "result": "raysstone:calverite"
 }

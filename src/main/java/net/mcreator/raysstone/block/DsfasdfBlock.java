@@ -1,7 +1,7 @@
 
 package net.mcreator.raysstone.block;
 
-import net.minecraftforge.fmllegacy.network.NetworkHooks;
+import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -61,7 +61,6 @@ public class DsfasdfBlock extends Block implements SimpleWaterloggedBlock, Entit
 		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1f, 10f).requiresCorrectToolForDrops().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(WATERLOGGED, false));
-		setRegistryName("dsfasdf");
 	}
 
 	@Override
@@ -100,14 +99,14 @@ public class DsfasdfBlock extends Block implements SimpleWaterloggedBlock, Entit
 	public BlockState updateShape(BlockState state, Direction facing, BlockState facingState, LevelAccessor world, BlockPos currentPos,
 			BlockPos facingPos) {
 		if (state.getValue(WATERLOGGED)) {
-			world.getLiquidTicks().scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
+			world.scheduleTick(currentPos, Fluids.WATER, Fluids.WATER.getTickDelay(world));
 		}
 		return super.updateShape(state, facing, facingState, world, currentPos, facingPos);
 	}
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
 		return false;
 	}
@@ -185,6 +184,6 @@ public class DsfasdfBlock extends Block implements SimpleWaterloggedBlock, Entit
 
 	@OnlyIn(Dist.CLIENT)
 	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(RaysstoneModBlocks.DSFASDF, renderType -> renderType == RenderType.cutout());
+		ItemBlockRenderTypes.setRenderLayer(RaysstoneModBlocks.DSFASDF.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

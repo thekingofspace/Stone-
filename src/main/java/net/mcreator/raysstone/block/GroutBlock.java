@@ -19,7 +19,6 @@ import java.util.Collections;
 public class GroutBlock extends Block {
 	public GroutBlock() {
 		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL).strength(0.7999999999999999f, 10f).requiresCorrectToolForDrops());
-		setRegistryName("grout");
 	}
 
 	@Override
@@ -29,7 +28,7 @@ public class GroutBlock extends Block {
 
 	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
-		if (player.getInventory().getSelected().getItem()instanceof TieredItem tieredItem)
+		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
 		return false;
 	}

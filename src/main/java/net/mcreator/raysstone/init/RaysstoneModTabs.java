@@ -18,7 +18,7 @@ public class RaysstoneModTabs {
 		TAB_ORES = new CreativeModeTab("tabores") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(RaysstoneModItems.COPPER_SULFATE_CHUNK);
+				return new ItemStack(RaysstoneModItems.COPPER_SULFATE_CHUNK.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)
@@ -29,7 +29,7 @@ public class RaysstoneModTabs {
 		TAB_MINERALS = new CreativeModeTab("tabminerals") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(RaysstoneModItems.COPPER_INFUSED_IRON);
+				return new ItemStack(RaysstoneModItems.COPPER_INFUSED_IRON.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

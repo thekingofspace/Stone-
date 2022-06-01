@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "raysstone:items/sulfatechunk"
+    "layer0": "raysstone:items/sulfate_chunk_new"
   }
 }

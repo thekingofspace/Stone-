@@ -1,14 +1,14 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    "K",
-    "P"
+    "0",
+    "1"
   ],
   "key": {
-    "K": {
+    "0": {
       "item": "minecraft:kelp"
     },
-    "P": {
+    "1": {
       "item": "minecraft:potion"
     }
   },
