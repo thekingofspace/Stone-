@@ -215,20 +215,12 @@
       "registry_name": "scheelite_ore"
     },
     {
-      "name": "Dsfasdf",
-      "type": "block",
-      "sortid": 29,
+      "name": "Salt",
+      "type": "villagertrade",
+      "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "dsfasdf"
-    },
-    {
-      "name": "Test",
-      "type": "gui",
-      "sortid": 30,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test"
+      "registry_name": "salt"
     }
   ],
   "variable_elements": [],
@@ -248,7 +240,6 @@
       "advancements.chunkunlock.descr": "e",
       "item.raysstone.polished_copper_sulfate": "Rochelle salts",
       "block.raysstone.cobbled_calverite": "Cobbled Calverite",
-      "block.raysstone.dsfasdf": "Dsfasdf",
       "advancements.groutunlock.descr": "e",
       "block.raysstone.scheelite_ore": "Scheelite Ore",
       "itemGroup.tabores": "Ores",
@@ -288,6 +279,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.raysstone",
     "lockBaseModFiles": false
   },

@@ -30,7 +30,6 @@ import net.mcreator.raysstone.init.RaysstoneModTabs;
 import net.mcreator.raysstone.init.RaysstoneModItems;
 import net.mcreator.raysstone.init.RaysstoneModFeatures;
 import net.mcreator.raysstone.init.RaysstoneModBlocks;
-import net.mcreator.raysstone.init.RaysstoneModBlockEntities;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -51,7 +50,6 @@ public class RaysstoneMod {
 		RaysstoneModBlocks.REGISTRY.register(bus);
 		RaysstoneModItems.REGISTRY.register(bus);
 
-		RaysstoneModBlockEntities.REGISTRY.register(bus);
 		RaysstoneModFeatures.REGISTRY.register(bus);
 
 	}

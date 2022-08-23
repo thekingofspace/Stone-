@@ -35,7 +35,6 @@ public class RaysstoneModItems {
 			() -> new CrushedRochelleSaltsItem());
 	public static final RegistryObject<Item> ROCHELLE_SALTS_ORE = block(RaysstoneModBlocks.ROCHELLE_SALTS_ORE, RaysstoneModTabs.TAB_ORES);
 	public static final RegistryObject<Item> SCHEELITE_ORE = block(RaysstoneModBlocks.SCHEELITE_ORE, RaysstoneModTabs.TAB_ORES);
-	public static final RegistryObject<Item> DSFASDF = block(RaysstoneModBlocks.DSFASDF, RaysstoneModTabs.TAB_ORES);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
