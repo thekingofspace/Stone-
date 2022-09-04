@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "experience": 1,
+  "cookingtime": 1800,
+  "ingredient": {
+    "item": "raysstone:grout"
+  },
+  "result": "raysstone:plastar"
+}

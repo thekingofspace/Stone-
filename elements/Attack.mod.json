@@ -1,0 +1,12 @@
+{
+  "_fv": 28,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "H",
+    "keyBindingName": "Use Energy",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "AttackOnKeyPressed"
+    }
+  }
+}

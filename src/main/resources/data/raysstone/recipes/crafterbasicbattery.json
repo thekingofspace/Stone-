@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:copper_ingot"
+    },
+    "1": {
+      "item": "raysstone:copper_sulfate_chunk"
+    },
+    "2": {
+      "item": "minecraft:copper_ingot"
+    },
+    "4": {
+      "item": "minecraft:glass_bottle"
+    }
+  },
+  "result": {
+    "item": "raysstone:basic_battery",
+    "count": 1
+  }
+}

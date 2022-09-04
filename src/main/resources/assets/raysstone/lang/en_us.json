@@ -2,7 +2,9 @@
   "block.raysstone.rochelle_salts_ore": "Rochelle salts ore",
   "item.raysstone.copper_sulfate_chunk": "Copper sulfate chunk",
   "block.raysstone.grout": "Grout",
+  "advancements.shocking.title": "Shocking",
   "advancements.unlocksalt.descr": "e",
+  "key.raysstone.attack": "Use Energy",
   "advancements.unlockcobble.descr": "e",
   "block.raysstone.copper_sulfate_ore": "Copper Sulfate Ore",
   "item.raysstone.crushed_rochelle_salts": "Crushed rochelle salts",
@@ -11,6 +13,7 @@
   "advancements.chunkunlock.title": "Chunkunlock",
   "advancements.chunkunlock.descr": "e",
   "item.raysstone.polished_copper_sulfate": "Rochelle salts",
+  "item.raysstone.basic_battery": "Basic Battery",
   "block.raysstone.cobbled_calverite": "Cobbled Calverite",
   "advancements.groutunlock.descr": "e",
   "block.raysstone.scheelite_ore": "Scheelite Ore",
@@ -22,8 +25,10 @@
   "advancements.unlockcobble.title": "Chunkunlock",
   "advancements.groutunlock_3.descr": "e",
   "advancements.sulfur_spring.descr": "You got some copper sulfate nice",
+  "advancements.shocking.descr": "Ouch that hurt",
   "advancements.groutunlock_2.title": "Groutunlock",
   "item.raysstone.copper_infused_chunks": "Copper infused chunks",
   "itemGroup.tabminerals": "Minerals",
+  "block.raysstone.plastar": "Plastar",
   "advancements.sulfur_spring.title": "Sulfur Spring"
 }

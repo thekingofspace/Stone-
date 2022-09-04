@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "raysstone:blocks/seared_grout",
+    "up": "raysstone:blocks/seared_grout",
+    "north": "raysstone:blocks/seared_grout",
+    "east": "raysstone:blocks/seared_grout",
+    "south": "raysstone:blocks/seared_grout",
+    "west": "raysstone:blocks/seared_grout",
+    "particle": "raysstone:blocks/seared_grout"
+  }
+}

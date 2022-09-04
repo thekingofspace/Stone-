@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.Block;
 
 import net.mcreator.raysstone.block.ScheeliteOreBlock;
 import net.mcreator.raysstone.block.RochelleSaltsOreBlock;
+import net.mcreator.raysstone.block.PlastarBlock;
 import net.mcreator.raysstone.block.GroutBlock;
 import net.mcreator.raysstone.block.CopperSulfateOreBlock;
 import net.mcreator.raysstone.block.CobbledCalveriteBlock;
@@ -26,4 +27,5 @@ public class RaysstoneModBlocks {
 	public static final RegistryObject<Block> GROUT = REGISTRY.register("grout", () -> new GroutBlock());
 	public static final RegistryObject<Block> ROCHELLE_SALTS_ORE = REGISTRY.register("rochelle_salts_ore", () -> new RochelleSaltsOreBlock());
 	public static final RegistryObject<Block> SCHEELITE_ORE = REGISTRY.register("scheelite_ore", () -> new ScheeliteOreBlock());
+	public static final RegistryObject<Block> PLASTAR = REGISTRY.register("plastar", () -> new PlastarBlock());
 }

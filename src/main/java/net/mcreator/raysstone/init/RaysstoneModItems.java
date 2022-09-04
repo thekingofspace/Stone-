@@ -18,6 +18,7 @@ import net.mcreator.raysstone.item.CrushedRochelleSaltsItem;
 import net.mcreator.raysstone.item.CopperSulfateChunkItem;
 import net.mcreator.raysstone.item.CopperInfusedIronItem;
 import net.mcreator.raysstone.item.CopperInfusedChunksItem;
+import net.mcreator.raysstone.item.BasicBatteryItem;
 import net.mcreator.raysstone.RaysstoneMod;
 
 public class RaysstoneModItems {
@@ -35,6 +36,8 @@ public class RaysstoneModItems {
 			() -> new CrushedRochelleSaltsItem());
 	public static final RegistryObject<Item> ROCHELLE_SALTS_ORE = block(RaysstoneModBlocks.ROCHELLE_SALTS_ORE, RaysstoneModTabs.TAB_ORES);
 	public static final RegistryObject<Item> SCHEELITE_ORE = block(RaysstoneModBlocks.SCHEELITE_ORE, RaysstoneModTabs.TAB_ORES);
+	public static final RegistryObject<Item> PLASTAR = block(RaysstoneModBlocks.PLASTAR, RaysstoneModTabs.TAB_ORES);
+	public static final RegistryObject<Item> BASIC_BATTERY = REGISTRY.register("basic_battery", () -> new BasicBatteryItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
